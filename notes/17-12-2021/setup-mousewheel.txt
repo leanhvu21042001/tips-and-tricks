@@ -1,0 +1,21 @@
+Install and Configure imwheel
+# Update your repositories
+sudo apt update
+
+# Install imwheel
+sudo apt install imwheel
+
+# Install wget
+sudo apt install wget
+
+# Download mousewheel.sh
+wget http://www.nicknorton.net/mousewheel.sh
+
+# Change permissions to the script to add execution
+chmod +x ~/mousewheel.sh
+
+# Run the script
+~/./mousewheel.sh
+
+# Tweek scroll wheel settings
+# Add to imwheel to startup

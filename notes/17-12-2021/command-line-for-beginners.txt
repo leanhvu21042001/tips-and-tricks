@@ -1,0 +1,71 @@
+# Opening terminal:
+- Ấn tổ hợp phím ctr-alt-t, hoặc ấn super và tìm với từ khóa: shell, command..., terminal...
+
+- Xem đường dẫn hiện tại dùng pwd.
+- Truy cập vào đường dẫn dùng cd.
+- Thoát khỏi đường dẫn dùng cd..
+- whoami để biết tên người dùng.
+
+
+# Creating folders and files:
+
+- tạo folder dùng mkdir:
+ví dụ: mkdir -p -v dir1 "dir 2" dir\ 3 dir4/dir4.1
+- Tạo files:
+ví dụ:
+	ls > output.txt
+	cat output.txt // xem giá trị trong file.
+	echo "this is a text" > test_1.txt
+- Đọc thông tin files ra ngoài console:
+
+ví dụ: files: output.txt, test_1.txt, test_2.txt
+	cat output.txt test_1.txt
+	cat test?.txt
+	cat test*
+- Gôm toàn bộ nội dung file vào một file khác.
+ví dụ: output.txt, test_1.txt, test_2.txt
+	cat t* > combined.txt // chỉ ghi đè giá trị vào file,
+	cat t* >> combined.txt // chèn thêm giá trị vào file.
+- lưu ý: các file có phân biệt chữ In Hoa hoặc Thường.
+
+# Di chuyển và thao túng files.
+- Di chuyển file và folder vào folder:
+ví dụ:
+	mv combined.txt dir1
+	mv folder_test dir1
+
+- Di chuyển toàn bộ files và folder từ folder dir1 ra ngoài folder hiện tại.
+ví dụ:
+	mv dir1/* .
+- Folder cuối sẽ là nơi nhận những folders hoặc files move.
+ví dụ:
+	mv combined.txt test_* dir3 dir2
+	// dir2 là folder sẽ nhận những folders hoặc files đứng trước.
+- Copy file.
+Ví dụ: 
+	cp combined.txt backup_combined.txt
+- Đổi tên.
+Ví dụ:
+	mv backup_combined.txt combined.txt
+
+- Chỉ xóa files.
+	rm file_name.type-file
+- Chỉ xóa folders rỗng.
+	rmdir folder_name
+	rmdir dir1/dir2/dir3 // Theo thứ tự xóa là 3.2.1
+- Xóa folders và files.
+	rm -r <name of folders or files>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+# Conventionall Commits:
+
+## fix: Chỉnh sửa một lỗi nào đó.
+
+## feat: Thêm một chức năng nào đó khả dụng, thêm một nhiệm vụ hay công việc trong code (ví dụ thêm chức năng search)
+
+## chore: các công việc lặt vặt như CẬP NHẬP version dependencies files, config files, report files hoặc chỉnh một phần nhỏ các files setup,...
+vd: chore(examples): update axios version in examples folder (#1679)
+examples ở đây chính là vị trí chỉnh sửa, có thể là file hoặc folder bị chỉnh sửa
+link vd: https://github.com/tannerlinsley/react-query/commit/1032804426f8db2ca3239b601914accbc4c1ddee
+
+## update: nếu chỉnh sửa nhỏ gì đó trong file code thì phải dùng update
+Update index.js
+
+## docs: thường là thêm xóa sửa các files tài liệu.
+vd: docs: add emoji to mutations docs page (#1377) …
+
+## optimization: để tối ưu hóa gì đó.
+vd: optimization(query): reduce unnecessary recursion (#1329) …
+
+## build: khi ta build code thì dùng cái này.
+build: add beta builds
+
+## refactor: cấu trúc lại một cái gì đó. có thể là code, có thể là cấu trúc lại folder
+vd: refactor(examples): use triple equal instead of double equal (#3135)
+link vd: https://github.com/tannerlinsley/react-query/commit/93824ec731c0e971cd38b5eddebd93b697cc107b
+
+## style
+
+## test
+
+## ci

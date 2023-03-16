@@ -1,0 +1,30 @@
+Error#: remote: Support for password authentication was removed on Augusst 13,2021. Please use a personal access token instead.
+
+step 1: Create Personal Access Token on Github.
+
+Go: Settings->Developer Settings-> Pseronal Access Token -> Generate New Token -> Fillup the form -> Generate token -> Copy the generated Token.
+
+It's might like this: ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
+
+
+Step 2: Config your github info 
+
+$ git config --global user.name "your_github_username"
+$ git config --global user.email "your_github_email"
+$ git config -l
+
+
+Step 3: Clone repo then set username, password, and save cache.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `your-repo`...
+$ Username for 'https://github.com' : username
+$ Password for 'https://github.com' : give your personal access token here
+
+// save cache.
+$ git config --global credential.helper cache
+
+
+// If unset cache follow this code:
+// $ git config --global --unset credential.helper
+// $ git config --system --unset credential.helper

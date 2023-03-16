@@ -1,0 +1,18 @@
+## cách đổi tên sang branch mới tại local.
+### Ban đầu: 
+
+ui/main
+ui/main -> feature/build-homepage-ui
+
+### Đổi tên sang branch mới.
+$ [ui/main]: git branch -m ui/main feature/build-homepage-ui
+
+### Xóa branch trên origin.
+$ [feature/build-homepage-ui]:
+$ [feature/build-homepage-ui]: git push --delete origin ui/main
+
+### set lại based branch origin.
+git branch --unset-upstream
+
+
+## cách chuyển commit qua nhánh khác.

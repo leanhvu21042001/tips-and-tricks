@@ -1,0 +1,5 @@
+setup nvm
+setup git ssh
+setup google [email, github, facebook, zalo]
+setup git local -- khi commit se hien thi user la raymond-le-goldenowl
+
