@@ -1,0 +1,47 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.guides.bracketPairs": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.formatOnSave": true,
+  "files.eol": "\n",
+  "editor.codeActionsOnSave": {
+    // "source.fixAll": true,
+    // "source.sortImports": true
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace"
+  },
+  "editor.linkedEditing": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "files.autoSave": "afterDelay",
+  // "editor.fontSize": 18,
+  "editor.fontSize": 16,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 4,
+  "workbench.colorTheme": "Cobalt2",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  // "editor.fontFamily": "JetBrains Mono, cascadia code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "workbench.sideBar.location": "right"
+}
