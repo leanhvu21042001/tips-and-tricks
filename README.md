@@ -15,3 +15,6 @@ p: để paste
 
   -->
 
+- Activate
+> slmgr /skms kms8.msguides.com
+> slmgr /ato
