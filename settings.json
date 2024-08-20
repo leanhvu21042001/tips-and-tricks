@@ -1,0 +1,39 @@
+{
+  "window.zoomLevel": -1,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.gpuAcceleration": "on",
+  "workbench.editorAssociations": {
+    "*.mwb": "default"
+  },
+  "settingsSync.keybindingsPerPlatform": false,
+  "search.followSymlinks": false,
+  "search.maxResults": 20000,
+  "typescript.tsserver.log": "off",
+  "emmet.triggerExpansionOnTab": true,
+  "files.autoSave": "afterDelay",
+  "files.eol": "\n",
+  "files.encoding": "utf8",
+
+  "editor.fontSize": 18,
+  "editor.fontLigatures": true,
+  // "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  // "editor.fontFamily": "JetBrains Mono, cascadia code, Consolas, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.experimental.asyncTokenizationVerification": true,
+  "editor.accessibilitySupport": "off",
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": true,
+  // "editor.guides.bracketPairsHorizontal": true,
+  "editor.cursorBlinking": "expand",
+  // "editor.cursorWidth": 4,
+  "editor.cursorStyle": "block",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "explorer.compactFolders": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none"
+}
